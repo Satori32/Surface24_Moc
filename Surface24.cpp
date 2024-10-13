@@ -28,8 +28,8 @@ size_t Height(Surface24& In) {
 	return In.Height;
 }
 
-RGB* Index(Surface24& In, size_t Width, size_t Height) {
-	return Index(In.C, Width * Height);
+RGB* Index(Surface24& In, size_t X, size_t Y) {
+	return Index(In.C, Y * Width + X);
 }
 
 bool SetPixel(Surface24& In, size_t Width, size_t Height, RGB C) {
