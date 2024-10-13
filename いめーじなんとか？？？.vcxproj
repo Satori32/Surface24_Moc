@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileDescripter.cpp" />
+    <ClCompile Include="Surface24.cpp" />
     <ClCompile Include="MemoryAllocator.cpp" />
     <ClCompile Include="ソース.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileDescripter.h" />
+    <ClInclude Include="Surface24.h" />
     <ClInclude Include="MemoryAllocator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
